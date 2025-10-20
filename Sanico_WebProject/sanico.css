@@ -85,6 +85,7 @@ footer {
     color: lightgray;
 }
 
+
 /*images and other individual thingies (individual explanations!)*/
 
 #indeximage{ /*image on the homescreen that sits on the right*/
@@ -110,4 +111,14 @@ footer {
     background-image:url(media/marco.gif);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+#linkssubtext { /*custom styling for the right-sitting textbox on the links page*/
+    background: #89023E;
+    float: right;
+    min-height: fit-content;
+    width: fit-content;
+    height: fit-content;
+    margin-right:10%;
+    color:white;
 }
