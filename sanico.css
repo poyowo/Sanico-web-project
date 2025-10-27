@@ -1,0 +1,124 @@
+/*Marco Sanico
+10/6/2025
+CIS-216
+cascading style sheet for the funny*/
+
+* {
+
+} 
+
+header {
+    align-items: center;
+    justify-content: center;
+    background:#FFFFFF;
+    height: 210px;
+    width: 205px;
+    padding-top: .2em;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h1 {    
+    text-align:center;
+    color:#1B2021;
+    font-weight:bold;
+}
+
+body {
+
+    background-color: #FFD9DA;
+    color:#1B2021;
+    font-family:fantasy;
+
+}
+
+dt {
+    text-decoration: underline;
+}
+
+#wrapper {
+    border-top: 25px solid #1B2021;
+    background-color: #EA638C;
+    margin:auto;
+    min-width:25%;
+    max-width:75%;
+
+}
+
+nav { /*there's a ton thats part of the nav indivdually, so i'm tabbing it over*/
+    background: #89023E;
+    float: left;
+    min-height:fit-content;
+    width: 90px;
+    height:450px;
+
+}
+    .minitext {
+        font-size:x-small;
+    }
+
+    a:link {
+        color:white
+    }
+
+    a:visited {
+        color:pink
+    }
+
+    a:hover {
+        color:darksalmon
+    }
+
+    a:active{
+
+    }
+
+main { 
+    
+    margin-left: 100px;
+    display: block;
+
+}
+
+footer {
+    background-color:#1B2021;
+    color: lightgray;
+}
+
+
+/*images and other individual thingies (individual explanations!)*/
+
+#indeximage{ /*image on the homescreen that sits on the right*/
+    background-color: #EA638C;
+    float:right;
+    width:350px;
+    height:350px;
+    background-image: url(media/ponytail.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#indextext{ /*text that comes with the image above (shoutout to hachi)*/
+    float:right;
+}
+
+#headerimage{ /*despite this saying image, its the gif that displays at the top of each page*/
+    background-color: #FFFFFF;
+    float:left;
+    padding-left: 2.5%;
+    width:200px;
+    height:125px;
+    background-image:url(media/marco.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#linkssubtext { /*custom styling for the right-sitting textbox on the links page*/
+    background: #89023E;
+    float: right;
+    min-height: fit-content;
+    width: fit-content;
+    height: fit-content;
+    margin-right:10%;
+    color:white;
+}
