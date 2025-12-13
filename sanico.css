@@ -3,7 +3,7 @@
 CIS-216
 cascading style sheet for the funny*/
 
-* {
+* { /* will probably stay empty, just here in case */
 
 } 
 
@@ -36,7 +36,7 @@ dt {
     text-decoration: underline;
 }
 
-#wrapper {
+#wrapper { /*appropriately wraps across the entire page, its like * but not really at all */
     border-top: 25px solid #1B2021;
     background-color: #EA638C;
     margin:auto;
@@ -45,7 +45,7 @@ dt {
 
 }
 
-nav { /*there's a ton thats part of the nav indivdually, so i'm tabbing it over*/
+nav { /*there's a ton thats part of the nav indivdually, so i'm tabbing it over for clarity's sake*/
     background: #89023E;
     float: left;
     min-height:fit-content;
@@ -69,7 +69,7 @@ nav { /*there's a ton thats part of the nav indivdually, so i'm tabbing it over*
         color:darksalmon
     }
 
-    a:active{
+    a:active{ /* like okay i know why it exists, but its such a slim window to actually see it, why even change it? */
 
     }
 
